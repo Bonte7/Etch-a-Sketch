@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#grid-container {
+    display: grid;
+    width: 600px;
+    height: 600px;
+    border: solid blue;
+    
+}
+
+.grid-square {
+    background-color: white;
+    border: solid lightgray;
+    border-width: 1px;
+
+}
+
+.active {
+    background-color: black;
+}
+
+/* -------- Controls -------- */
+
+#controls-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+}
